@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NJc75wvst/s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mheyz\\own-projects\\undertale\\UndertaleFight\\UndertaleFight.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mheyz\\.nuget\\packages\\csfml\\2.6.1\\csfml.2.6.1.nupkg.sha512",
+    "C:\\Users\\mheyz\\.nuget\\packages\\sfml.audio\\2.6.1\\sfml.audio.2.6.1.nupkg.sha512",
+    "C:\\Users\\mheyz\\.nuget\\packages\\sfml.graphics\\2.6.1\\sfml.graphics.2.6.1.nupkg.sha512",
+    "C:\\Users\\mheyz\\.nuget\\packages\\sfml.net\\2.6.1\\sfml.net.2.6.1.nupkg.sha512",
+    "C:\\Users\\mheyz\\.nuget\\packages\\sfml.system\\2.6.1\\sfml.system.2.6.1.nupkg.sha512",
+    "C:\\Users\\mheyz\\.nuget\\packages\\sfml.window\\2.6.1\\sfml.window.2.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
