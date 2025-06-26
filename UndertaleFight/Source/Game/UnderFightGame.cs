@@ -6,11 +6,12 @@ namespace UndertaleFight.Source;
 
 public class UnderFightGame : GameLoop
 {
+    private bool SHOW_FPS = true;
     public const string WINDOW_TITLE = "SHIVER";
-    public const uint DEFAULT_WINDOW_WIDTH = 640;
-    public const uint DEFAULT_WINDOW_HEIGHT = 480;
+    public const uint DEFAULT_WINDOW_WIDTH = 1200;
+    public const uint DEFAULT_WINDOW_HEIGHT = 800;
 
-    public GameState _state = GameState.Battle; // TODO: change to menu and implement menu
+    private GameState _state = GameState.Battle; // TODO: change to menu and implement menu
 
     public UnderFightGame() : base(DEFAULT_WINDOW_WIDTH, DEFAULT_WINDOW_HEIGHT, WINDOW_TITLE, Color.Black)
     {
@@ -18,7 +19,10 @@ public class UnderFightGame : GameLoop
 
     public override void Draw(GameTime gameTime)
     {
-        DebugUtility.DrawPerformanceData(this, Color.White);
+        if (SHOW_FPS)
+            DebugUtility.DrawPerformanceData(this, Color.White);
+        
+
     }
 
     public override void Initialize()
